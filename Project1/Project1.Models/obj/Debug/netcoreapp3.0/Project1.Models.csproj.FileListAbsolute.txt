@@ -1,0 +1,8 @@
+C:\RevatureCode\Project 1\Project1\Project1.Models\bin\Debug\netcoreapp3.0\Project1.Models.deps.json
+C:\RevatureCode\Project 1\Project1\Project1.Models\bin\Debug\netcoreapp3.0\Project1.Models.dll
+C:\RevatureCode\Project 1\Project1\Project1.Models\bin\Debug\netcoreapp3.0\Project1.Models.pdb
+C:\RevatureCode\Project 1\Project1\Project1.Models\obj\Debug\netcoreapp3.0\Project1.Models.AssemblyInfoInputs.cache
+C:\RevatureCode\Project 1\Project1\Project1.Models\obj\Debug\netcoreapp3.0\Project1.Models.AssemblyInfo.cs
+C:\RevatureCode\Project 1\Project1\Project1.Models\obj\Debug\netcoreapp3.0\Project1.Models.dll
+C:\RevatureCode\Project 1\Project1\Project1.Models\obj\Debug\netcoreapp3.0\Project1.Models.pdb
+C:\RevatureCode\Project 1\Project1\Project1.Models\obj\Debug\netcoreapp3.0\Project1.Models.csprojAssemblyReference.cache

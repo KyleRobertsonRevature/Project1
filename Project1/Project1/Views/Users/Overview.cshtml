@@ -1,0 +1,58 @@
+﻿@model Project1.Models.OverviewVM
+@{
+    ViewData["Title"] = "Account Overview";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+</head>
+<body>
+    <p>Overview for @Model.User.FirstName @Model.User.LastName. Active accounts are listed below. Click <a asp-action="Create" asp-controller="Accounts">here</a> to open a new account, or you can <a asp-action="Logout">log out</a> here.</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Balance
+                </th>
+                <th>
+                    Interest Rate
+                </th>
+                <th>
+                    Account Number
+                </th>
+                <th>
+                    Account Type
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Accounts)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Balance)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InterestRate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AccountNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.AccType)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>
